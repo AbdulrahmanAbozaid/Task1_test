@@ -1,0 +1,26 @@
+git init
+
+git add first.txt
+git commit -m "first file"
+
+git add second.txt
+git commit -m "second file"
+
+git add third.txt
+git commit -m "third file"
+
+git add third.txt
+git commit -m "third file"
+
+git revert 9a99796318d20dfa2c2d1cf39f5c3cabf4e6779d
+
+git branch second
+echo "created new branch" > secondBranch.txt
+git add secondBranch.txt
+git commit -m "second branch" 
+
+git checkout master
+git merge second
+
+git remote add origin https://github.com/AbdulrahmanAbozaid/Task1_test.git
+git push
