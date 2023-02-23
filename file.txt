@@ -15,6 +15,7 @@ git commit -m "third file"
 git revert 9a99796318d20dfa2c2d1cf39f5c3cabf4e6779d
 
 git branch second
+git checkout second
 echo "created new branch" > secondBranch.txt
 git add secondBranch.txt
 git commit -m "second branch" 
